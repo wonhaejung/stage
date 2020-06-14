@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style type="text/css">
+	html{background-color:black;font-family:'Noto Sans KR', sans-serif;scroll-behavior:smooth;color:white;}
+	body,h1,h2,li,ul{margin:0;padding:0px}
+	h2{font-size:2.5em;}
+	nav{text-decoration:none;}
+	nav a{position:fixed;
+    	z-index:999; 
+    	text-align:center;
+    display:inline-block;
+    background-color:black;
+	font-size:1.3em}
+   li{height: 40px;
+   	list-style-type:circle;
+   	 float:right;
+     width:200px;
+ 	padding-top:20px;}
+   	a{color:white;
+   	word-break:keep-all;
+   	font-size:1.4em; }
+   	p{position:absolute;
+     z-index:999;
+     margin:0px 20px;
+     }
+   	header{background-color:red;height:1350px;z-index:999; }
+   	header div{text-align:left;font-size: 2.5em;padding-top:400px}
+   	header div h3{font-size:0.8em;}
+   	.col-1{width:90px;margin:0px 5px}
+	.col-2{width:190px;:margin:0px 5px}
+	.col-3{width:290px; margin:300px 550px}
+	.col-4{width:390px;margin:100px 550px}
+	.col-5{width:490px;margin:0px 5px;}
+	.col-6{width:590px;margin:0px 250px;}
+	.col-6-1{width:700px;margin:0px 700px;}
+	.home-bg{background:url(../자료/stage.jpg);
+			background-size:80%;
+			background-repeat:no-repeat;
+			position:relative;
+			background-position: 200px -100px;
+			z-index:-1;
+			background-attachment: fixed;}
+	.h-600{height:800px}
+	.row{width:1000px;margin:auto;z-index: 20;position: relative;}
+	.se-bg{background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,107,107,0.5158438375350141) 50%, rgba(0,0,0,1) 100%);}
+	.text-center{text-align:center;}
+	.img-size{width: 800px;margin-top: 30px}
+	.margin-bottom{ margin-bottom:30px;}
+	
+	.circular-portrait {
+     position: absolute;
+     width: 500px;
+     height: 400px;
+     margin-left: 10px;
+ 	color:white;}
+ 	.circular-portrait2 {
+     position: absolute;
+     width: 20px;
+     height: 82px;
+     margin-left: -10px;
+ 	color:white;}
+
+ 	.blue{color:blue;}
+ 	.red{color:red;}
+ 	.yellow{color:yellow;}
+ 	.green{color:green;}
+ 	
+
+	#abs1{position:absolute; left: 450px; top:270px;}
+	#abs2{position:absolute; left: 450px; top:350px;width: 600px}
+	#abs3{position:absolute;right:700px; top:150px; width:500px;}
+	#abs4{position:absolute;left:450px; top:380px; width:500px;}
+	#abs5{position:absolute;left:450px; top:410px; width:500px;}
+	#abs6{position:absolute;left:450px; top:440px; width:500px;}
+
+
+#cc1 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../한여름/1-1.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc1:hover{
+	width:800px;
+	height:500px;
+  background:url('5.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}
+
+
+#cc2 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../헬터/2122.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc2:hover{
+	width:800px;
+	height:500px;
+  background:url('6.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}
+
+#cc3 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../죽사/555.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc3:hover{
+	width:800px;
+	height:500px;
+  background:url('7.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}
+
+
+#cc4 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../싱스/8888.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc4:hover{
+	width:800px;
+	height:500px;
+  background:url('8.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}
+
+
+#cc5 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../무인도/99.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc5:hover{
+	width:800px;
+	height:500px;
+  background:url('9.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}  
+
+#cc6 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../조선/1010.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc6:hover{
+	width:800px;
+	height:500px;
+  background:url('10.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s} 
+
+#cc7 {
+	display:inline-block;
+	width:800px;
+	height:500px;
+  background:url('../마마무/무대44.jpg') no-repeat;
+  background-size: 800px auto;}
+#cc7:hover{
+	width:800px;
+	height:500px;
+  background:url('11.png') no-repeat;
+  background-size: 800px auto;
+  transition:all 0.5s}    
+
+</style>
+<head>
+	<title>Stage Design</title>
+</head>
+<nav class="">
+ 		<ul>
+ 			<li>
+ 				<a href="#a">CONTACT</a>			
+ 			</li>
+ 			<li>
+ 				<a href="#b">WORK</a> 			
+ 			</li>
+ 			<li>
+ 				<a href="#c">PROFLE</a> 			
+ 			</li>
+ 			<li>
+ 				<a href="#d">HOME</a> 			
+ 			</li>
+ 		</ul>
+</nav>
+<body>
+	<header id="d" class="home-bg" >
+		<div class="col-6">
+			<h1>Stage Design</h1>
+			<h3>2018~2019
+			<br>won hye jung</h3>
+	</div>
+</header>
+
+<section id="c" class="se-bg">		
+	<div class="row ">
+		<div class="col-6-1 h-600 " >
+			<img class="" src="../자료/me.png" id="abs3">
+			<h1 id="abs1">
+	*기억에 남는 디자이너를 꿈꾸고 있습니다*</h1>
+			<a id="abs2">이 포트폴리오는 2018년도 부터 2019년도 까지의 작품을 다루고 있습니다. 개인적인 목적으로 만든 작품들이며 이 포트폴리오를 보시는 분들이 제 작품 중 하나라도 기억에 담아가신 다면 저에게 의미가 있을 것 같습니다.감사합니다.</a>
+		
+		</div>
+	</div>
+</section>
+<section id="b" class="">
+	<div class="col-3 ">
+		<h2 class="text-center margin-bottom">*Recent Work*</h2>
+		<div class="circular-portrait">
+        <img class="circular-portrait2" src=../자료/cir.png >
+        <p>
+       Theatricals-Proscenium<br>
+		Musical-Circular Stage<br>
+		Movie Set<br>
+		Broadcast stage
+        </p>
+	</div>
+	 
+    </div>
+<section>
+	<div class="col-4">
+		<h2 class="blue" >2019</h2>
+		<a>The Dream of Summer Night</a>
+		<a href="https://music.youtube.com/" id="cc1"></a>
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="blue">2019</h2>
+		<a>Helter Skelter</a>
+		<a href="https://music.youtube.com/" id="cc2"></a>
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="blue">2018</h2>
+		<a>Dead Poet Society</a>
+		<a href="https://music.youtube.com/" id="cc3"></a>
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="yellow">2018</h2>
+		<a>Sing Street</a>
+		<a href="https://music.youtube.com/" id="cc4"></a>
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="green">2018</h2>
+		<a>Desert Island</a>
+		<a href="https://music.youtube.com/" id="cc5"></a>
+		
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="green">2018</h2>
+		<a>Movie Set</a>
+		<a href="https://music.youtube.com/" id="cc6"></a>
+	</div>
+</section>
+<section>
+	<div class="col-4">
+		<h2 class="red">2019</h2>
+		<a>MAMAMOO Stage</a>
+		<a href="https://music.youtube.com/" id="cc7"></a>
+	</div>
+</section>	
+<footer id="a" class="">	
+												
+	<div class="row ">
+		<div class="col-6-1 h-600 " >
+			<img class="" src="../자료/me2.png" id="abs3">
+			<h2 id="abs1">*Contact*</h2>
+			<li id="abs2">010.9931.4454</li>
+			<li id="abs4">oksj06023@gmail.com</li>
+			<li id="abs5">ooj1994@naver.com</li>
+			<li id="abs6">https://www.instagram.com/wo_n_j/?hl=ko</li>
+		
+		</div>
+
+	</div>
+	
+</footer>
+
+</section>
+</body>
+</html>
